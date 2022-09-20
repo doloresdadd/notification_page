@@ -1,3 +1,25 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-size: 12px;
+  color: hsl(219, 14%, 63%);
+}
+
+a {
+  font-weight: bold;
+  color: hsl(224, 21%, 14%);
+}
+
+a:hover {
+  color: hsl(219, 85%, 26%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
